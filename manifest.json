@@ -1,0 +1,51 @@
+{
+  "name": "Pharmacy App",
+  "short_name": "Pharmacy App",
+  "icons": [
+    {
+      "src": "resources/Logo/16x.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/32x.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/48x.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/72x.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/96x.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/128x.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/256x.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/Logo/512x.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait-primary",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#212325",
+  "background_color": "#ffffff"
+}

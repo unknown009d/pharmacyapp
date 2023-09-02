@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmacy App</title>
+    <meta
+      name="Description"
+      content="
+      This is a Pharmacy Application which is not yet commercial. 
+      It's a online shopping application for medicines.
+      This is a web application with PWA integration.
+      "
+    />
+    <meta
+      name="keywords"
+      content="Doctor, CAB, Pharmacy, Hospital, Agartala, Prototype, Drubajyoti, Debnath, Drubajyoti Debnath"
+    />
+    <meta name="author" content="Drubajyoti Debnath" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="resources/Logo/32x.png" sizes="32x32" />
+  </head>
+  <body ng-app="PHAPP">
+    <main>
+      <ng-view id="scrollSmooth"></ng-view>
+    </main>
+    <footer>
+      <nav>
+        <a href="#!/" data-name="Home"><i class="fas fa-home"></i></a>
+        <a href="#!/search" data-name="Search"><i class="fas fa-search"></i></a>
+        <a href="#!/user" data-name="Me"><i class="fas fa-user"></i></a>
+        <a href="#!/cart" data-name="Cart" id="cartIcon">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a href="#!/settings" data-name="Settings"
+          ><i class="fas fa-cogs"></i
+        ></a>
+      </nav>
+    </footer>
+    <div id="cartMessage">Item has been added to your cart</div>
+    <script src="javascript/angularjs/angular.min.js"></script>
+    <script src="javascript/angularjs/angular-router.min.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

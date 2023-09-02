@@ -1,0 +1,234 @@
+<section class="upperHome">
+  <h1 class="mainName">
+    <i class="fas fa-mortar-pestle"> &nbsp; </i> PharmacyApp
+  </h1>
+  <div class="header">
+    <i class="fas fa-bars Hammenu" onclick="reDirect('settings')"></i>
+    <p onclick="reDirect('search')">Search Medicines</p>
+    <i class="fas fa-search srch" onclick="reDirect('search')"></i>
+    <i class="fas fa-bell" onclick="reDirect('notification')"></i>
+  </div>
+  <div class="sliderImages" id="sliderImage">
+    <span></span>
+    <div class="slider">
+      <img src="resources/backHome1.svg" alt="We Deliver Agartala" />
+    </div>
+    <div class="slider">
+      <img
+        class="imgFront"
+        src="resources/backHome2.svg"
+        alt="Cash on Delivery"
+      />
+    </div>
+    <div class="slider">
+      <img src="resources/backHome3.svg" alt="3-Step Assurance" />
+    </div>
+    <span></span>
+  </div>
+</section>
+<div class="content">
+  <h4>Popular Medicines</h4>
+</div>
+<section class="PMSlider" id="medSlider">
+  <div class="PMC" onclick="reDirect('searchRes/CAB-99')">
+    <div class="cImg">
+      <img
+        src="https://cdn.technologynetworks.com/tn/images/thumbs/jpeg/640_360/evidence-reinforcing-approval-of-new-cancer-drugs-raises-questions-324111.jpg"
+        alt="CAB-99"
+      />
+    </div>
+    <p>CAB-99</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/LHY 50')">
+    <div class="cImg">
+      <img
+        src="https://media.istockphoto.com/id/1300036753/photo/falling-antibiotics-healthcare-background.jpg?s=612x612&w=0&k=20&c=oquxJiLqE33ePw2qML9UtKJgyYUqjkLFwxT84Pr-WPk="
+        alt="LHY 50"
+      />
+    </div>
+    <p>LHY 50</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/BGT-250')">
+    <div class="cImg">
+      <img
+        src="https://www.nps.org.au/assets/_510x318_crop_center-center_75_none/GettyImages-171311609.jpg"
+        alt="BGT-250"
+      />
+    </div>
+    <p>BGT-250</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/Cloride')">
+    <div class="cImg">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfEvJPkvJVqV5Dnx15JM4PJhfYTfRhUIobQjIBDebN9Epo8JUc&usqp=CAU"
+        alt="Cloride"
+      />
+    </div>
+    <p>Cloride</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/DIS-23')">
+    <div class="cImg">
+      <img
+        src="https://bsmedia.business-standard.com/_media/bs/img/article/2017-02/24/full/1487946977-1307.jpg"
+        alt="DIS-23"
+      />
+    </div>
+    <p>DIS-23</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/N986')">
+    <div class="cImg">
+      <img
+        src="https://5.imimg.com/data5/DI/VP/MY-33673078/c-tiss-pharmaceutical-syrup-500x500.jpg"
+        alt="N986"
+      />
+    </div>
+    <p>N986</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/B-12B')">
+    <div class="cImg">
+      <img
+        src="https://images1.livehindustan.com/uploadimage/library/2018/03/15/16_9/16_9_1/sample_of_medicine_1521107534.jpg"
+        alt="B-12B"
+      />
+    </div>
+    <p>B-12B</p>
+  </div>
+  <div class="PMC" onclick="reDirect('searchRes/N986')">
+    <div class="cImg">
+      <img
+        src="https://m.economictimes.com/thumb/msid-68322644,width-1200,height-900,resizemode-4,imgsize-438207/medicine-thinkstock.jpg"
+        alt="MUI02"
+      />
+    </div>
+    <p>N986</p>
+  </div>
+</section>
+<div class="content">
+  <h4>Order</h4>
+</div>
+<section class="threeCol">
+  <div class="col" onclick="reDirect('search')">
+    <div class="icon">
+      <img src="resources/MedicineICON.webp" alt="Medicines" />
+    </div>
+    <p>Medicines</p>
+  </div>
+  <div class="col" onclick="cMsg('Function Not Available !');">
+    <div class="icon">
+      <img src="resources/PrescriptionICON.webp" alt="Prescription" />
+    </div>
+    <p>By Prescription</p>
+  </div>
+  <div class="col" onclick="reDirect('reorder')">
+    <div class="icon">
+      <img src="resources/reorderIcon.webp" alt="Re-Order" />
+    </div>
+    <p>Re-Order</p>
+  </div>
+</section>
+<div class="content">
+  <h4>category</h4>
+</div>
+<section class="threeCol moreCate">
+  <div class="col" onclick="reDirect('category/Personal Protection')">
+    <div class="icon">
+      <i class="fas fa-diagnoses"></i>
+    </div>
+    <p>Personal Protection</p>
+  </div>
+  <div class="col" onclick="reDirect('category/Health Suppliments')">
+    <div class="icon">
+      <i class="fas fa-prescription-bottle-alt"></i>
+    </div>
+    <p>Health Suppliments</p>
+  </div>
+  <div class="col" onclick="reDirect('category/Devices & Orthopaedic')">
+    <div class="icon">
+      <i class="fas fa-laptop"></i>
+    </div>
+    <p>Devices & Orthopaedic</p>
+  </div>
+  <div class="col" onclick="reDirect('category/Pet Care')">
+    <div class="icon">
+      <i class="fas fa-paw"></i>
+    </div>
+    <p>Pet Care</p>
+  </div>
+  <div class="col" onclick="reDirect('category/Accessories')">
+    <div class="icon">
+      <i class="fas fa-layer-group"></i>
+    </div>
+    <p>Accessories</p>
+  </div>
+  <div class="col" onclick="reDirect('category/Shop by Brand')">
+    <div class="icon">
+      <i class="far fa-copyright"></i>
+    </div>
+    <p>Shop by Brand</p>
+  </div>
+</section>
+<br />
+<div class="content">
+  <h4>Offers Products</h4>
+</div>
+<section class="prodCont">
+  <a href="#!/product/BUI-YU-20NU" class="prod">
+    <div class="imgCont">
+      <img
+        src="https://images1.livehindustan.com/uploadimage/library/2018/03/15/16_9/16_9_1/sample_of_medicine_1521107534.jpg"
+        alt="MED"
+      />
+      <p class="banner">Choose for Diet</p>
+    </div>
+    <h5>BUI-YU-20NU</h5>
+    <label class="sm-desc">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa beatae
+      similique repudiandae nisi numquam.
+    </label>
+    <p>₹ 69.99</p>
+  </a>
+  <a href="#!/product/ICEIU02-2B" class="prod">
+    <div class="imgCont">
+      <img
+        src="https://images1.livehindustan.com/uploadimage/library/2018/03/15/16_9/16_9_1/sample_of_medicine_1521107534.jpg"
+        alt="MED"
+      />
+      <p class="banner">50% off</p>
+    </div>
+    <h5>ICEIU02-2B</h5>
+    <p class="sm-desc">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa beatae
+      similique repudiandae nisi numquam.
+    </p>
+    <p>₹ 69.99</p>
+  </a>
+</section>
+<div class="content">
+  <h4>Brands with us</h4>
+</div>
+<section class="brands">
+  <img
+    src="https://inspirationfeed.com/wp-content/uploads/2015/08/MedicaYun-by-ZEKO.png"
+    alt="Medicayun"
+  />
+  <img
+    src="https://images-platform.99static.com//oL88scr6LzES6cqfbLaFWLt5MvQ=/469x201:1563x1295/fit-in/500x500/99designs-contests-attachments/102/102508/attachment_102508328"
+    alt="internalMedicine"
+  />
+  <img
+    src="https://images-platform.99static.com//DTNdpTuWR2AmWvc8vVLNuh_yjVA=/251x76:753x578/fit-in/500x500/99designs-contests-attachments/95/95437/attachment_95437792"
+    alt="Mankind"
+  />
+  <img
+    src="https://images-platform.99static.com//Ygv3kGSQhCssBNeXftTN9lr8Zcg=/287x287:1125x1125/fit-in/500x500/99designs-contests-attachments/110/110276/attachment_110276496"
+    alt="Himalaya"
+  />
+  <img
+    src="https://dcassetcdn.com/design_img/2586223/32641/32641_13987818_2586223_658497bf_image.jpg"
+    alt="Avanti Hormones"
+  />
+  <img
+    src="https://www.underconsideration.com/brandnew/archives/ablixa_01_logo_detail.png"
+    alt="Ablixa"
+  />
+</section>
